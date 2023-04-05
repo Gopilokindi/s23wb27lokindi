@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1=title 
+  h1=title
+  - let results=[{"Name":"Ravi","Gender":"M","Age":24},{"Name":"Raju","Gender":"M","Age":20},{"Name":"Kiran","Gender":"F","Age":22}]
+  div(class="container-fluid")
+    div(class="row")
+      each item in results
+        div(class="col-sm-2")
+          p(class="text-primary")=`Name is ${item.Name}`
+          p(class="text-primary")=`Gender is ${item.Gender}`
+          p(class="text-primary")=`Age is ${item.Age}`
   
