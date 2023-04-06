@@ -3,7 +3,7 @@
 ##### render link
 https://s23wb27lokindi.onrender.com/
 ---
-###### Atributes Names
-Name
-Age
-Gender
+###### Attributes Names
+Name<br>
+Age<br>
+Gender<br>
